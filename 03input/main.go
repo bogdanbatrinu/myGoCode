@@ -14,6 +14,6 @@ func main() {
 	fmt.Scanln(&age)
 	fmt.Println("your age is ", age)
 	fmt.Print("Enter fun fact: ")
-	fmt.Scan(&funFact)
+	fmt.Scanln(&funFact)
 	fmt.Println("your fun fact is ", funFact)
 }
